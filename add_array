@@ -1,0 +1,29 @@
+
+/*
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+	int k[2][2]={{3,8},{4,6}};
+	int j[2][2]={{4,0},{1,-9}};
+	int i;
+	int *a,*b,*c;
+	a = (int *) malloc(4*sizeof(int));
+	b = (int *) malloc(4*sizeof(int));
+	c =( int *) malloc(4*sizeof(int));
+	for(i=0; i<4;i++)
+    {
+        *(a+i)=*(*k+i);
+        *(b+i)=*(&j[0][0]+i);
+
+    }
+
+	for (i=0;i<4;i++) {
+		*(c+i) = *(a+i) + *(b+i);
+	}
+	printf("Resultant List is\n");
+	for (i=0;i<4;i++) {
+		printf("%d\n",*(c+i));
+	}
+	return 0;
+}
+*/

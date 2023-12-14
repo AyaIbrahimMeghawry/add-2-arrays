@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1681198797 source:f:\c codes\nti\test_11\main.c
+	<stdio.h>
+	<stdlib.h>
+
